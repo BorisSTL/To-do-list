@@ -1,0 +1,37 @@
+.wrapper-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-li {
+    display: flex;
+    border-top: 1px solid rgb(173, 169, 169);
+    border-left: 1px solid rgb(173, 169, 169);
+    border-bottom: 1px solid rgb(173, 169, 169);
+    border-radius: 5px;
+    margin: 2px;
+    overflow: hidden;
+    padding: 0 0 0 2px;
+    min-width: 80%;
+    text-align: left;
+}
+
+
+.text-item {
+    margin: 0 0 0 5px;
+    width: 95%;
+}
+
+.text-remove {
+    background-color: rgb(173, 169, 169);
+    margin: 0 0 0 2px;
+    width: 5%;
+    min-width: 15px;
+}
+
+.clear-list {
+    min-width: 200px;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    margin: 0 auto;
+}

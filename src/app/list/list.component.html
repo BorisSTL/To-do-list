@@ -1,0 +1,12 @@
+<div class="wrapper-list">
+    <ul>
+        <li *ngFor="let item of writingSrv.checkList" class="text-li">
+            <input type='checkbox'>
+            <p class="text-item">
+                {{item}}
+            </p>
+            <button class="text-remove" (click)="remove(item)">x</button>
+        </li>
+    </ul>
+    <button class="clear-list" *ngIf="writingSrv.checkList.length > 0" (click)="clear()">-- clear this list --</button>
+</div>
